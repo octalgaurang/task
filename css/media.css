@@ -1,0 +1,136 @@
+@media (max-width: 1366px) {
+    .navbar .dropdown .dropdown ul {
+        left: -90%;
+    }
+
+    .navbar .dropdown .dropdown:hover>ul {
+        left: -100%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .faq-secation .faq-list {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .whychoose-us .content,
+    .whychoose-us .accordion-list {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .whychoose-us .content {
+        padding-top: 30px;
+    }
+
+    .whychoose-us .accordion-list {
+        padding-bottom: 30px;
+    }
+
+    .cta-secation {
+        background-attachment: scroll;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .whychoose-us .img {
+        min-height: 400px;
+
+    }
+
+    .price-secation .box {
+        max-width: 60%;
+        margin: 0 auto 30px auto;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .navbar ul {
+        display: none;
+    }
+
+    .mobile-nav-toggle {
+        display: block;
+    }
+
+    #bus-1 {
+        height: 100vh;
+        text-align: center;
+    }
+
+    #bus-1 .first-banner-img {
+        text-align: center;
+    }
+
+    #bus-1 .first-banner-img img {
+        width: 50%;
+    }
+
+
+}
+
+@media (min-width: 769px) {
+    .cta-secation .cta-btn-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 768px; ) {
+
+    #bus-1 h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    #bus-1 h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    #bus-1 .first-banner-img img {
+        width: 70%;
+    }
+
+    .clients img {
+        max-width: 40%;
+    }
+}
+
+@media (max-width: 767px) {
+    .price-secation .box {
+        max-width: 80%;
+        margin: 0 auto 30px auto;
+    }
+}
+
+@media (max-width: 575px) {
+    #bus-1 .first-banner-img img {
+        width: 80%;
+    }
+
+    #bus-1 .btn-get-started {
+        font-size: 16px;
+        padding: 10px 24px 11px 24px;
+    }
+
+    .whychoose-us .img {
+        min-height: 200px;
+
+    }
+}
+
+@media (max-width: 420px) {
+    .price-secation .box {
+        max-width: 80%;
+        margin: 0 auto 30px auto;
+    }
+}
